@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {Routes,RouterModule} from '@angular/router';
-import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import {appRoutes} from './app.routes';
 
@@ -11,7 +10,6 @@ import {appRoutes} from './app.routes';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     RouterModule.forRoot(appRoutes),
   ],
   providers: [],
